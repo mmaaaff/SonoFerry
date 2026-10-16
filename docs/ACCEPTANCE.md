@@ -28,3 +28,10 @@ Report new validation with the exact source/app build, installed HAL revision, d
 A separate, clean export of the public source files passed a complete build, the full offline test runner (`scripts/test.py`, including all 87 core tests), package creation and expanded-package verification. This confirms the public snapshot builds without the local research archive or previous compiler caches. Optional decoder tests were not repeated in this export; the unchanged codec/test sources had passed the independent decoder checks in the Beta 1 development build above.
 
 No application or HAL installation, audio restart, live playback or headphone operation was performed. The exported runtime and test sources match Beta 1; public-facing documentation and license attribution were prepared separately.
+
+
+## 2026-10-16 — Beta 1 prerelease
+
+Published [v0.2.0-beta.1](https://github.com/mmaaaff/SonoFerry/releases/tag/v0.2.0-beta.1) from source commit `f9ce446927328d211b61c7c390110ea983dfcd14`. Assets use the clean public-source build described above, including its complete matching engine/HAL package. The installer differs in hash from the earlier local development package with the same version; it is not intended to be mixed with components from that earlier build.
+
+Release assets are `SonoFerry-0.2.0-Beta1.pkg`, `SonoFerry-Uninstaller-1.4.zip` and `SHA256SUMS.txt`. The uninstaller ZIP was extracted locally and its strict code signature verified before upload. Release preparation did not install software, restart audio, play audio, run CPU/doctor checks or change headphone settings.

@@ -4,6 +4,8 @@ A macOS menu bar app for LDAC and LHDC V5 audio over built-in Bluetooth, with de
 
 **Current version: 0.2.0 Beta 1 (build 54).** Requires an Apple Silicon Mac running macOS 26 or later. The app currently uses a Chinese-language interface.
 
+[Download Beta 1](https://github.com/mmaaaff/SonoFerry/releases/tag/v0.2.0-beta.1) — the release includes the complete installer, standalone uninstaller and SHA-256 checksums. Read the installation steps below before upgrading. This is a pre-release; the app is ad-hoc signed and not notarized.
+
 SonoFerry combines a virtual audio output, system audio capture and a dedicated Bluetooth audio engine. Pair your headphones in macOS, add them to SonoFerry, then select an available high-quality codec. Codec and control availability depend on the connected headphones and their reported capabilities.
 
 ## Features
