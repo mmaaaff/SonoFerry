@@ -1,6 +1,6 @@
 // swift-tools-version: 6.0
 import PackageDescription
-let package = Package(name: "SonoFerry", platforms: [.macOS("26.0")], products: [
+let package = Package(name: "SonoFerry", platforms: [.macOS("15.4")], products: [
     .library(name: "SonoFerryCore", targets: ["SonoFerryCore"])
 ], targets: [
     .target(name: "SonoFerryCore", path: "Sources/Core"),

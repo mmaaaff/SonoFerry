@@ -33,7 +33,7 @@
 		</array>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>26.0</string>
+	<string>15.4</string>
 	<key>SonoFerryLDACDriverRevision</key>
 	<integer>7</integer>
 </dict>

@@ -92,14 +92,14 @@ def main():
     result = audit(app)
     uninstaller = ROOT / 'dist' / ('卸载 ' + PRODUCT_NAME + '.app')
     metadata = info(uninstaller)
-    assert (metadata['CFBundleShortVersionString'], metadata['CFBundleVersion']) == ('1.4', '5')
+    assert (metadata['CFBundleShortVersionString'], metadata['CFBundleVersion']) == ('1.5', '6')
     assert metadata['CFBundleIdentifier'] == 'local.SonoFerry.Uninstaller'
     assert metadata['CFBundleExecutable'] == 'SonoFerryUninstaller'
     run('codesign', '--verify', '--deep', '--strict', uninstaller)
     binary = uninstaller / 'Contents/MacOS/SonoFerryUninstaller'
     assert run('lipo', '-archs', binary).stdout.strip() == ARCHITECTURE
     assert re.search(r'\bminos\s+(\S+)', run('vtool', '-show-build', binary).stdout).group(1) == DEPLOYMENT
-    result['uninstaller'] = {'version': '1.4', 'build': '5', 'signature': 'passed'}
+    result['uninstaller'] = {'version': '1.5', 'build': '6', 'signature': 'passed'}
     if args.package:
         with tempfile.TemporaryDirectory(prefix='sonoferry-verify-') as temp:
             expanded = pathlib.Path(temp) / 'expanded'

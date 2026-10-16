@@ -1,6 +1,12 @@
 # Implementation notes
 
-Current source baseline: **SonoFerry 0.2.0 Beta 1, build 54**. App, engine and audio helper share that version. The HAL has bundle version 0.1.0/build1 and runtime revision 7. A matching engine hash is generated during each build; it is not a portable, fixed release constant.
+Current source baseline: **SonoFerry 0.2.0 Beta 2, build 55**. App, engine and audio helper share that version. The HAL has bundle version 0.1.0/build1 and runtime revision 7. A matching engine hash is generated during each build; it is not a portable, fixed release constant.
+
+## Beta 2 deployment target
+
+App, engine, capture helper, HAL and uninstaller now target macOS 15.4 on arm64. The build setting, Swift Package declaration, plist metadata and Mach-O deployment target are aligned. The standalone uninstaller is 1.5/build6. The capture helper retains its existing 15.4 runtime guard; macOS26-only bundle-ID exclusion remains conditionally compiled at runtime, with the existing process-object exclusion path on older systems. Audio/codec/control behavior is unchanged.
+
+A new engine build requires its matching HAL. Type checking and offline tests on the build host cannot validate private Bluetooth, TCC or HAL XPC behavior on macOS15.4; real-device checks remain separate.
 
 ## Audio path
 

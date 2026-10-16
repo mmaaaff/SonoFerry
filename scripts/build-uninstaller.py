@@ -26,7 +26,7 @@ def main():
         info = dict(CFBundleIdentifier='local.SonoFerry.Uninstaller',
                     CFBundleName='卸载 ' + PRODUCT_NAME, CFBundleDisplayName='卸载 ' + PRODUCT_NAME,
                     CFBundleExecutable='SonoFerryUninstaller', CFBundlePackageType='APPL',
-                    CFBundleShortVersionString='1.4', CFBundleVersion='5',
+                    CFBundleShortVersionString='1.5', CFBundleVersion='6',
                     LSMinimumSystemVersion=DEPLOYMENT, NSHighResolutionCapable=True)
         icon = ROOT / 'dist' / (PRODUCT_NAME + '.app') / 'Contents/Resources/AppIcon.icns'
         if icon.exists():
@@ -51,7 +51,7 @@ def main():
         OUTPUT.parent.mkdir(parents=True, exist_ok=True)
         run('/usr/bin/ditto', '--norsrc', '--noextattr', app, OUTPUT)
         run('codesign', '--verify', '--deep', '--strict', OUTPUT)
-    print('Built uninstaller 1.4/build 5:', OUTPUT)
+    print('Built uninstaller 1.5/build 6:', OUTPUT)
     print('No installation, removal, administrator authentication or audio restart was performed.')
 
 

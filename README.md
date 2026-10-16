@@ -2,9 +2,9 @@
 
 A macOS menu bar app for LDAC and LHDC V5 audio over built-in Bluetooth, with dedicated optimizations and integrated controls for OPPO headphones.
 
-**Current version: 0.2.0 Beta 1 (build 54).** Requires an Apple Silicon Mac running macOS 26 or later. The app currently uses a Chinese-language interface.
+**Current version: 0.2.0 Beta 2 (build 55).** Requires an Apple Silicon Mac running macOS 15.4 or later. The app currently uses a Chinese-language interface.
 
-[Download Beta 1](https://github.com/mmaaaff/SonoFerry/releases/tag/v0.2.0-beta.1) — the release includes the complete installer, standalone uninstaller and SHA-256 checksums. Read the installation steps below before upgrading. This is a pre-release; the app is ad-hoc signed and not notarized.
+[Download Beta 2](https://github.com/mmaaaff/SonoFerry/releases/tag/v0.2.0-beta.2) — the release includes the complete installer, standalone uninstaller and SHA-256 checksums. Read the installation steps below before upgrading. This is a pre-release; the app is ad-hoc signed and not notarized.
 
 SonoFerry combines a virtual audio output, system audio capture and a dedicated Bluetooth audio engine. Pair your headphones in macOS, add them to SonoFerry, then select an available high-quality codec. Codec and control availability depend on the connected headphones and their reported capabilities.
 
@@ -25,8 +25,8 @@ This is an independent, unofficial project. It is not affiliated with or endorse
 
 - LHDC V5 is currently **lossy**. LHDC Lossless / mHDT is not implemented.
 - Microphone/HFP transport and headphone hardware volume control are not implemented. Software volume is optional and disabled by default.
-- Short real-device listening checks and offline codec tests have passed in development. Long playback sessions, repeated reconnects, sleep/wake and failure recovery still need broader testing. These historical checks are not a full hardware qualification of Beta 1.
-- The minimum build target is macOS 26.0; this is not a guarantee of validation on every macOS release. Intel Macs are not supported by the current build.
+- Short real-device listening checks and offline codec tests have passed in development. Long playback sessions, repeated reconnects, sleep/wake and failure recovery still need broader testing. These historical checks are not a full hardware qualification of Beta 2.
+- The minimum build target is macOS 15.4; lower-target builds and offline checks do not establish actual playback compatibility on macOS 15.4. Target-system hardware validation is still required. Intel Macs are not supported by the current build.
 - Bluetooth transport uses private macOS interfaces and may be affected by OS updates.
 
 See [validation scope](docs/ACCEPTANCE.md) and [implementation notes](docs/IMPLEMENTATION.md).
@@ -39,7 +39,7 @@ Install full Xcode and its command-line tools, and make Python 3 available. Run 
 python3 scripts/build.py
 python3 scripts/test.py
 python3 scripts/package.py
-python3 scripts/verify-product.py --package dist/SonoFerry-0.2.0-Beta1.pkg
+python3 scripts/verify-product.py --package dist/SonoFerry-0.2.0-Beta2.pkg
 ```
 
 Normal builds use the checked-in, checksum-pinned dependencies and do not download code. The build creates an ad-hoc-signed app and matching HAL plugin; it does not install them or restart system audio. The package is not Developer ID signed or notarized.
@@ -47,7 +47,7 @@ Normal builds use the checked-in, checksum-pinned dependencies and do not downlo
 Outputs:
 
 - `dist/SonoFerry.app`
-- `dist/SonoFerry-0.2.0-Beta1.pkg`
+- `dist/SonoFerry-0.2.0-Beta2.pkg`
 - `dist/卸载 SonoFerry.app` — standalone uninstaller
 
 Optional independent decoder tests download pinned, checksum-verified test dependencies into ignored `work/` directories:
@@ -77,7 +77,7 @@ Use the installed app for real playback. An engine rebuild changes its signing i
 For an optional, bounded health check while playback is stopped:
 
 ```sh
-python3 scripts/check-install.py --version 0.2.0 --build 54
+python3 scripts/check-install.py --version 0.2.0 --build 55
 ```
 
 This checks installed versions and signatures, the HAL's engine authorization hash, bounded diagnostics, and process samples over roughly 45 seconds. It does not install, restart audio, play sound or change headphone settings. Logs may contain local paths or device information; review them before sharing.

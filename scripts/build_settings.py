@@ -5,8 +5,8 @@ Previous product identifiers and user data are not used as fallbacks.
 """
 
 PRODUCT_NAME = 'SonoFerry'
-APP_VERSION, APP_BUILD = '0.2.0', '54'
-RELEASE_LABEL = 'Beta 1'
+APP_VERSION, APP_BUILD = '0.2.0', '55'
+RELEASE_LABEL = 'Beta 2'
 COMPONENT_VERSION, COMPONENT_BUILD = APP_VERSION, APP_BUILD
 APP_BUNDLE_ID = 'local.SonoFerry'
 ENGINE_BUNDLE_ID = 'local.SonoFerry.Engine'
@@ -18,6 +18,6 @@ DRIVER_NAME = 'SonoFerry.driver'
 DRIVER_PATH = '/Library/Audio/Plug-Ins/HAL/' + DRIVER_NAME
 ENGINE_HASH_KEY = 'SonoFerryEngineCDHash'
 PACKAGE_ID = 'local.SonoFerry.package'
-DEPLOYMENT = '26.0'
+DEPLOYMENT = '15.4'
 ARCHITECTURE = 'arm64'
 SWIFT_TARGET = ARCHITECTURE + '-apple-macos' + DEPLOYMENT

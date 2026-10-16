@@ -1,5 +1,15 @@
 # Validation scope
 
+## 2026-10-16 — 0.2.0 Beta 2 / build55
+
+The minimum target is now macOS15.4 on arm64 for the app, engine, capture helper, HAL and standalone uninstaller (1.5/build6). Runtime/codec/headphone-control source is unchanged from Beta1. All executable deployment targets and bundle minimum-system values were checked; the new engine hash matches the bundled and installed-payload HAL copies.
+
+A complete build, all 87 core tests, the full offline regression suite, independent LDAC/LHDC decoding tests, strict signatures and expanded-package/payload checks passed on the macOS27.2 build host. Existing test-code unused-result and external reference-decoder return warnings remain; the production build completed without new warnings. The uninstaller ZIP was extracted and its strict signature checked.
+
+This is not macOS15.4 hardware acceptance. First-run permissions, HAL loading, live Bluetooth transport, listening and long-term behavior on macOS15.4 remain untested. No app/HAL installation, restart, live playback, CPU sampling or doctor check was performed. Upgrades must install the complete matching Beta2 package and reload audio once or restart the Mac.
+
+Package: `SonoFerry-0.2.0-Beta2.pkg`, 3,323,802 bytes, SHA-256 `b89e58b42b3dca8ea4491c900a11f68ab1e3d80590f04529b071342b4588dbe3`. Uninstaller: `SonoFerry-Uninstaller-1.5.zip`. Both checksums accompany the release in `SHA256SUMS.txt`.
+
 ## 2026-10-16 — 0.2.0 Beta 1 / build54
 
 The development build passed:
