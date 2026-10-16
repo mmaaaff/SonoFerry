@@ -1,0 +1,36 @@
+#!/bin/sh
+set -eu
+. "${0%/*}/common.sh"
+check_targets
+/usr/bin/codesign --verify --deep --strict "$app"
+/usr/bin/codesign --verify --deep --strict "$driver"
+expected=$(/usr/libexec/PlistBuddy -c 'Print :SonoFerryEngineCDHash' "$driver/Contents/Info.plist")
+actual=$(/usr/bin/codesign -d --verbose=4 "$app/Contents/Helpers/SonoFerry Engine.app" 2>&1 | /usr/bin/sed -n 's/^CDHash=//p')
+[ -n "$expected" ] && [ "$actual" = "$expected" ] || { echo 'Engine and HAL signature hashes differ.' >&2; exit 1; }
+support='/Library/Application Support/SonoFerry'
+/usr/bin/install -d -o root -g wheel -m 755 "$support"
+lock="$support/ldac-route-owner.lock"
+if [ ! -e "$lock" ] && [ ! -L "$lock" ]; then
+    (umask 022; set -C; : > "$lock")
+    /usr/sbin/chown root:wheel "$lock"
+fi
+[ ! -L "$lock" ] && [ -f "$lock" ] && [ "$(/usr/bin/stat -f '%u:%Lp:%l' "$lock")" = '0:644:1' ] || exit 1
+# The new App and HAL must validate before retiring the previous product.
+# Removing the old HAL prevents two virtual devices after the user's restart.
+# Old user data and lock inodes are left untouched; the new product never reads them.
+check_processes
+check_bundle "$legacy_app" 'local.MacLDAC'
+check_bundle "$legacy_driver" 'local.MacLDAC.LDACOutput'
+for obsolete in "$legacy_app" "$legacy_driver"; do
+    if [ -e "$obsolete" ]; then
+        /bin/rm -rf -- "$obsolete" || fail "Unable to remove obsolete bundle: $obsolete"
+        [ ! -e "$obsolete" ] && [ ! -L "$obsolete" ] || fail "Obsolete bundle is still present: $obsolete"
+    fi
+done
+# The new package has its own receipt. Retire only these exact old receipts.
+for receipt in local.MacLDAC.package local.MacLDAC.uninstall; do
+    if /usr/sbin/pkgutil --pkg-info "$receipt" >/dev/null 2>&1; then
+        /usr/sbin/pkgutil --forget "$receipt" >/dev/null || fail 'Unable to remove obsolete package receipt.'
+    fi
+done
+echo 'SonoFerry installed. Restart the Mac to load this HAL build. Core Audio was not restarted automatically.'

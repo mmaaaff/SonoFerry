@@ -1,0 +1,6 @@
+AOSP platform/external/libldac
+https://android.googlesource.com/platform/external/libldac
+Revision: eeee1a3f5f8df1282e3a6d297085885fd886737b
+Floating-point encoder sources and headers; fixed-point and adaptive-bitrate components omitted.
+Local modification (2026-10-03): src/pack_ldac.c converts idata to unsigned int before its packing shift.
+Offline verification: Packaging/check-ldac-packing.py.

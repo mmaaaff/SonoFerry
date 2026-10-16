@@ -1,0 +1,22 @@
+{
+  "commit": "676af03d2b7a2ed5c1f9bdca7bf8938cc85f704b",
+  "files": {
+    "imdct_const_tables.inc": "57eb1daa4d752955630c832369c5309f021ce1dec86c033c81ba51b11daf066d",
+    "lhdc_bit_reader.c": "81eeba454ebb29aeef03184202b7aa2a84f8b94549475cfc96fef5eeb2dd3a77",
+    "lhdc_bit_reader.h": "9148efdbb01b6767cadbf1f3ed5b5b7592b931db05937539ecfa54ea4aa2a21d",
+    "lhdc_dec.c": "b770f56d9b31a1b4b5272fd9ba6b3006195ceed68ef8949ec44e07631b20a7b0",
+    "lhdc_dec.h": "cd59bb9ba2a099a3d26cf526676b4513493fc68edd84609a3c4cd0d3128efaa6",
+    "lhdc_dec_internal.h": "dece279c95755c35e3f31fce1cbc6164183830db7e1c7d95aedf34bec0c66941",
+    "lhdc_dec_slot.h": "0dfa37032f39f3cb48ba2fb4eb0c479c58ba2680410def7eb0af15a40140e042",
+    "lhdc_diag_config.c": "f3a27ed3a43cdaf5e468be6b77069986a5e782c4489e197af5e0c0a6502c8354",
+    "lhdc_diag_config.h": "ae2224a4dd86bed16ecd4b08f8ca05b3344cec42298d44114e818ebc7605cfcd",
+    "lhdc_entropy_dec.c": "698a55c083697aa9a98578415cfdf24cf0a6197f2e23c1b7f025d16a87802f70",
+    "lhdc_entropy_dec.h": "b84717ce9a6f91446f349eac9809ccebac064745d67198c78e704555f19ef982",
+    "lhdc_imdct.c": "1e14ee0e440c9249dd028bf6f378db2aaf05f88cb930f8ac1eac19a0162693ca",
+    "lhdc_imdct.h": "0a6180f5d40370da02817fb082fd4ceed485c955174285b2e1fd575d957fa9de",
+    "lhdc_sns_synth.c": "b6afd0bde63a78c0a10fac06dd27f26f567f11ef88e343ff4057dad29cf97715",
+    "lhdc_sns_synth.h": "848094a1254ae48313403db555d6e4e7e11125fe0f419281a2cf0afd8b8681fa",
+    "lhdc_tables.c": "bdeae531ddc5bda36807bd6f2ae2d4d8226840806790c1d77bc9360c7840dca3",
+    "lhdc_tables.h": "980d7442c3466ec44545a0be2bead28e74c4d584688dbb0129d7e980cf60ef62"
+  }
+}

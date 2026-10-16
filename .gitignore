@@ -1,0 +1,14 @@
+.build/
+dist/
+work/
+.DS_Store
+__pycache__/
+*.py[cod]
+*.xcuserstate
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.mobileprovision

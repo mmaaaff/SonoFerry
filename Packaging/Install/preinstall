@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+[ "${3:-}" = / ] || { echo 'Install on the current startup disk.' >&2; exit 1; }
+. "${0%/*}/common.sh"
+# Accept the former identity only before payload replacement. No data is migrated.
+check_targets 'local.MacLDAC'
+support='/Library/Application Support/SonoFerry'
+if [ -e "$support" ] || [ -L "$support" ]; then
+    [ ! -L "$support" ] && [ -d "$support" ] && [ "$(/usr/bin/stat -f '%u:%Lp' "$support")" = '0:755' ] || exit 1
+fi

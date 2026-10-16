@@ -1,0 +1,4879 @@
+[
+  {
+    "id": "06EC10",
+    "name": "OPPO Enco X4",
+    "aliases": [
+      "OPPO Enco Bohr"
+    ],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 11,
+        "modeType": 10,
+        "childrenMode": [
+          {
+            "protocolIndex": 12,
+            "modeType": 11
+          },
+          {
+            "protocolIndex": 13,
+            "modeType": 12
+          },
+          {
+            "protocolIndex": 14,
+            "modeType": 13
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "丹拿原声",
+        "summary": "丹拿原声，经久耐听，兼容多种音乐风格",
+        "brand": "丹拿"
+      },
+      {
+        "id": 7,
+        "name": "丹拿高解析",
+        "summary": "丹拿经典，还原经典丹拿音响的原生音色",
+        "brand": "丹拿"
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "专门为表现人声所调制，适合经典流行歌曲",
+        "brand": "丹拿"
+      },
+      {
+        "id": 1,
+        "name": "清亮高音",
+        "summary": "清晰还原每一个乐器的细节，适合交响乐与钢琴曲",
+        "brand": "丹拿"
+      },
+      {
+        "id": 3,
+        "name": "澎湃低音",
+        "summary": "领略低音的量感和质感，适合电子乐与摇滚乐",
+        "brand": "丹拿"
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [
+      31,
+      62,
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 16777732,
+        "showEar": 0,
+        "action": 16
+      },
+      {
+        "ear": 2,
+        "support": 1057383,
+        "showEar": 0,
+        "action": 17
+      },
+      {
+        "ear": 2,
+        "support": 34677347,
+        "showEar": 0,
+        "action": 18
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 20,
+        "entryStrModify": [
+          {
+            "categoryVersion": 2
+          }
+        ]
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 32
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 33,
+        "entryStrModify": [
+          {
+            "targetFunction": 262144,
+            "titleVersion": 2
+          }
+        ]
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 34
+      }
+    ],
+    "pinch": true
+  },
+  {
+    "id": "06F010",
+    "name": "OPPO Enco Air4s",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "goldenSound",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06B450",
+    "name": "OPPO Enco R5",
+    "aliases": [
+      "OPPO Enco xiapu OF"
+    ],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154529,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06E810",
+    "name": "OPPO Enco Air5s（星光版）",
+    "aliases": [
+      "OPPO Enco Laplace 3"
+    ],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7,
+            "intellectNoiseReductionSummary": 1
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3,
+            "weakNoiseReductionSummary": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [
+      31,
+      62,
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06C810",
+    "name": "OPPO Enco Air5s",
+    "aliases": [
+      "OPPO Enco Laplace 1",
+      "OPPO Enco Laplace 2"
+    ],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7,
+            "intellectNoiseReductionSummary": 1
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3,
+            "weakNoiseReductionSummary": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [
+      31,
+      62,
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06E010",
+    "name": "OPPO Enco Clip2",
+    "aliases": [
+      "OPPO Enco Nobel"
+    ],
+    "type": "O1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "wearDetection",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "均衡清晰，兼容多种音乐风格",
+        "brand": "丹拿"
+      },
+      {
+        "id": 3,
+        "name": "活力动感",
+        "summary": "增强音乐的节奏感，适合运动和户外场景",
+        "brand": "丹拿"
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "专门为表现人声所调制，适合经典流行歌曲",
+        "brand": "丹拿"
+      },
+      {
+        "id": 4,
+        "name": "丹拿特调",
+        "summary": "还原经典丹拿音响的原生音色",
+        "brand": "丹拿"
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "action": 2,
+        "support": 8807,
+        "showEar": 0,
+        "ear": 2
+      },
+      {
+        "action": 3,
+        "support": 1057403,
+        "showEar": 0,
+        "ear": 2
+      },
+      {
+        "action": 5,
+        "support": 1536,
+        "showEar": 0,
+        "ear": 2,
+        "entryStrModify": [
+          {
+            "targetFunction": 1024,
+            "summaryVersion": 2
+          }
+        ]
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 30
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06D810",
+    "name": "OPPO Enco Air5",
+    "aliases": [
+      "OPPO Enco ohm DO",
+      "OPPO Enco ohm EX",
+      "OPPO Enco ohm"
+    ],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [
+      31,
+      62,
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 1057379,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6,
+        "entryStrModify": [
+          {
+            "categoryVersion": 2
+          }
+        ]
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06C410",
+    "name": "OPPO Enco Air5 Pro",
+    "aliases": [
+      "OPPO Enco Einstein 1",
+      "OPPO Enco Einstein 3"
+    ],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [
+      31,
+      62,
+      125,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06F450",
+    "name": "OPPO Enco Buds3s",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "equalizers",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154529,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06B810",
+    "name": "OPPO Enco Clip",
+    "aliases": [],
+    "type": "O1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "wearDetection",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "默认",
+        "summary": "均衡清晰，兼容多种音乐风格",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "活力动感",
+        "summary": "增强音乐的节奏感，适合运动和户外场景",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "专门为表现人声所调制，适合经典流行歌曲",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "action": 2,
+        "support": 8807,
+        "showEar": 0,
+        "ear": 2
+      },
+      {
+        "action": 3,
+        "support": 3154555,
+        "showEar": 0,
+        "ear": 2
+      },
+      {
+        "action": 4,
+        "support": 536,
+        "showEar": 0,
+        "ear": 2
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 30
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "061410",
+    "name": "OPPO Enco X",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 3,
+        "modeType": 4
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 3
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 2
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "默认",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "Dynaudio 淳朴悠然",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "Dynaudio 温暖轻柔",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 515,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "support": 128,
+        "showEar": 1,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 4608,
+        "showEar": 1,
+        "action": 6
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "060410",
+    "name": "OPPO Enco Free",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 7,
+        "showEar": 0,
+        "action": 2
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "062010",
+    "name": "OPPO Enco Free2",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      },
+      {
+        "protocolIndex": 3,
+        "modeType": 6,
+        "decideByEarDevice": true
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "经典",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "动感低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "清澈人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "明亮通透",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8707,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "061C10",
+    "name": "OPPO Enco Play",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 615,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8705,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "061810",
+    "name": "OPPO Enco Air",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 615,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8705,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "062410",
+    "name": "OPPO Enco Buds",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8705,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "062810",
+    "name": "OPPO Enco Air Lite",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8705,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "060C10",
+    "name": "OPPO Enco W51",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "keys",
+      "wearDetection"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 743,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 513,
+        "showEar": 0,
+        "action": 3
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "060810",
+    "name": "OPPO Enco W31",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "061010",
+    "name": "OPPO Enco W11",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": false,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "060412",
+    "name": "OPPO O-Free",
+    "aliases": [],
+    "type": "N",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": false,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "062C10",
+    "name": "OPPO Enco W31 Lite",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": false,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "050410",
+    "name": "OPPO Enco M31",
+    "aliases": [],
+    "type": "N",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "050010",
+    "name": "OPPO Enco Quiet",
+    "aliases": [],
+    "type": "N",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": false,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "064C10",
+    "name": "OPPO Enco Air3",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "065C10",
+    "name": "OPPO Enco Air3 Pro",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "自然竹韵",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "065810",
+    "name": "OPPO Enco R2",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "Reno特调（灿烂朝霞）",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "066010",
+    "name": "OPPO Enco Free3",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "自然竹韵",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "050810",
+    "name": "OPPO Enco M32",
+    "aliases": [],
+    "type": "N",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": false,
+    "features": [
+      "battery",
+      "versions",
+      "ears"
+    ],
+    "noise": [],
+    "presets": [],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [],
+    "pinch": false
+  },
+  {
+    "id": "063010",
+    "name": "OPPO Enco R",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "微醺柔音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "063410",
+    "name": "OPPO Enco Air2",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8707,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "064010",
+    "name": "OPPO Enco Free2i",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      },
+      {
+        "protocolIndex": 3,
+        "modeType": 6,
+        "decideByEarDevice": true
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "经典",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "动感低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "清澈人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "明亮通透",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8707,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "063C10",
+    "name": "OPPO Enco X2",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          },
+          {
+            "protocolIndex": 9,
+            "modeType": 6
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 3,
+        "name": "久石让大师调音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 0,
+        "name": "Dynaudio 纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "Dynaudio 淳朴悠然",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "Dynaudio 澎湃爽朗",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 16
+      },
+      {
+        "ear": 2,
+        "support": 615,
+        "showEar": 0,
+        "action": 17
+      },
+      {
+        "ear": 2,
+        "support": 615,
+        "showEar": 0,
+        "action": 18
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 20
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 32
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 33
+      }
+    ],
+    "pinch": true
+  },
+  {
+    "id": "063810",
+    "name": "OPPO Enco Air2 Pro",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      },
+      {
+        "protocolIndex": 3,
+        "modeType": 6,
+        "decideByEarDevice": true
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 33380,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 41475,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 4632,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "064410",
+    "name": "OPPO Enco Air2i",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "064810",
+    "name": "OPPO Enco Buds2",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "065010",
+    "name": "OPPO Enco R Pro",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      },
+      {
+        "protocolIndex": 3,
+        "modeType": 6,
+        "decideByEarDevice": true
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "Reno特调（破晓曙光）",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 612,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8707,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 4632,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "066C10",
+    "name": "OPPO Enco Air2（新声版）",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "067010",
+    "name": "OPPO Enco Air3i",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "050C10",
+    "name": "OPPO Enco M33",
+    "aliases": [],
+    "type": "N",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "明快清亮",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 25,
+        "minSelectCount": 2
+      },
+      {
+        "ear": 2,
+        "support": 4608,
+        "showEar": 1,
+        "action": 26
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 1,
+        "action": 36
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 1,
+        "action": 37
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "066810",
+    "name": "OPPO Enco X3i",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes",
+      "bassWave"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 27
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "067410",
+    "name": "OPPO Enco X3",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          },
+          {
+            "protocolIndex": 9,
+            "modeType": 6
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "经久耐听，完美兼容多种音乐风格",
+        "brand": "丹拿"
+      },
+      {
+        "id": 1,
+        "name": "高清解析",
+        "summary": "清晰还原每一个乐器的细节，适合交响乐与钢琴曲",
+        "brand": "丹拿"
+      },
+      {
+        "id": 2,
+        "name": "纯享人声",
+        "summary": "专门为表现人声所调制，适合经典流行歌曲",
+        "brand": "丹拿"
+      },
+      {
+        "id": 3,
+        "name": "澎湃低音",
+        "summary": "领略低音的量感和质感，适合电子乐与摇滚乐",
+        "brand": "丹拿"
+      },
+      {
+        "id": 7,
+        "name": "丹拿特调",
+        "summary": "还原经典丹拿音响的原生音色",
+        "brand": "丹拿"
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 16
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 17
+      },
+      {
+        "ear": 2,
+        "support": 3220067,
+        "showEar": 0,
+        "action": 18
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 20
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 32
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 33
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 34
+      }
+    ],
+    "pinch": true
+  },
+  {
+    "id": "067810",
+    "name": "OPPO Enco Air3s",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "068010",
+    "name": "OPPO Enco Buds2 Pro",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "00001107-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "均衡（默认）",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "深海低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "明快清亮",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 4608,
+        "showEar": 1,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "068810",
+    "name": "OPPO Enco Air 3i",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "068410",
+    "name": "OPPO Enco R3",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "Reno特调（幻紫星河）",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 4
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "067C10",
+    "name": "OPPO Enco Air4 Pro",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "069010",
+    "name": "OPPO Enco Air4",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "goldenSound",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "069C10",
+    "name": "OPPO Enco R3 Pro",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          },
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "星河独白",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06A010",
+    "name": "OPPO Enco Buds3 Pro+",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "goldenSound",
+      "multipoint"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 0,
+        "modeType": 5
+      },
+      {
+        "protocolIndex": 1,
+        "modeType": 1
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8803,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "showEar": 1,
+        "action": 11,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 524288,
+        "showEar": 0,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262144,
+        "showEar": 0,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "068C10",
+    "name": "OPPO Enco Free4",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          },
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          }
+        ]
+      },
+      {
+        "protocolIndex": 11,
+        "modeType": 10
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 27,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 30
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06C010",
+    "name": "OPPO Enco Free4（丹拿版）",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          },
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          }
+        ]
+      },
+      {
+        "protocolIndex": 11,
+        "modeType": 10
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "丹拿特调",
+        "summary": "",
+        "brand": "丹拿"
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 27,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 30
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06BC10",
+    "name": "OPPO Enco X3s",
+    "aliases": [],
+    "type": "T1",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "noise",
+      "preset",
+      "keys",
+      "equalizers",
+      "wearDetection",
+      "goldenSound",
+      "multipoint",
+      "hiRes"
+    ],
+    "noise": [
+      {
+        "protocolIndex": 1,
+        "modeType": 5,
+        "childrenMode": [
+          {
+            "protocolIndex": 4,
+            "modeType": 4
+          },
+          {
+            "protocolIndex": 5,
+            "modeType": 8
+          },
+          {
+            "protocolIndex": 6,
+            "modeType": 3
+          },
+          {
+            "protocolIndex": 7,
+            "modeType": 7
+          }
+        ]
+      },
+      {
+        "protocolIndex": 11,
+        "modeType": 10
+      },
+      {
+        "protocolIndex": 2,
+        "modeType": 2,
+        "childrenMode": [
+          {
+            "protocolIndex": 8,
+            "modeType": 2
+          }
+        ]
+      },
+      {
+        "protocolIndex": 0,
+        "modeType": 1,
+        "childrenMode": [
+          {
+            "protocolIndex": 3,
+            "modeType": 1
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "id": 0,
+        "name": "至臻原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "纯享人声",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "澎湃低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 3,
+        "name": "丹拿特调",
+        "summary": "",
+        "brand": "丹拿"
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8807,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154531,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "showEar": 0,
+        "action": 27,
+        "minSelectCount": 1
+      },
+      {
+        "ear": 2,
+        "support": 3584,
+        "showEar": 0,
+        "action": 5
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 131584,
+        "showEar": 0,
+        "action": 30
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06A850",
+    "name": "OPPO Enco Buds3 Pro",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "equalizers",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "069850",
+    "name": "OPPO Enco Air4i",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "equalizers",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06AC50",
+    "name": "OPPO Enco R4",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "equalizers",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 3,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 8801,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06A450",
+    "name": "OPPO Enco Buds3",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154529,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  },
+  {
+    "id": "06B050",
+    "name": "OPPO Enco Air4（新声版）",
+    "aliases": [],
+    "type": "T2",
+    "serviceUUID": "0000079A-D102-11E1-9B23-00025B00A5A5",
+    "supportSpp": true,
+    "features": [
+      "battery",
+      "versions",
+      "ears",
+      "preset",
+      "keys",
+      "multipoint"
+    ],
+    "noise": [],
+    "presets": [
+      {
+        "id": 0,
+        "name": "纯粹原音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 2,
+        "name": "脉冲低音",
+        "summary": "",
+        "brand": null
+      },
+      {
+        "id": 1,
+        "name": "悠扬人声",
+        "summary": "",
+        "brand": null
+      }
+    ],
+    "eqLimit": 0,
+    "eqFrequencies": [],
+    "keys": [
+      {
+        "ear": 2,
+        "support": 516,
+        "showEar": 0,
+        "action": 1
+      },
+      {
+        "ear": 2,
+        "support": 8805,
+        "showEar": 0,
+        "action": 2
+      },
+      {
+        "ear": 2,
+        "support": 3154529,
+        "showEar": 0,
+        "action": 3
+      },
+      {
+        "ear": 2,
+        "support": 536,
+        "showEar": 0,
+        "action": 6
+      },
+      {
+        "ear": 2,
+        "support": 524800,
+        "showEar": 0,
+        "defaultFunction": 524288,
+        "action": 29
+      },
+      {
+        "ear": 2,
+        "support": 262656,
+        "showEar": 0,
+        "defaultFunction": 262144,
+        "action": 31
+      }
+    ],
+    "pinch": false
+  }
+]

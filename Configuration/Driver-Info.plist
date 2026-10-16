@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioServerPlugIn_MachServices</key>
+	<array>
+		<string>com.apple.BTAudioHALPlugin.xpc</string>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>SonoFerryVirtualOutput</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.SonoFerry.LDACOutput</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SonoFerry Output</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>4995CD0A-F26D-408A-B90F-8F424A685F10</key>
+		<string>SonoFerryVirtualOutput_Create</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>443ABAB8-E7B3-491A-B985-BEB9187030DB</key>
+		<array>
+			<string>4995CD0A-F26D-408A-B90F-8F424A685F10</string>
+		</array>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>SonoFerryLDACDriverRevision</key>
+	<integer>7</integer>
+</dict>
+</plist>

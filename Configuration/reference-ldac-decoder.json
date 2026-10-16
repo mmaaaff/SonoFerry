@@ -1,0 +1,25 @@
+{
+  "repository": "hegdi/libldacdec",
+  "commit": "7f3bd6cc1586b764b02f2e4f20b16c7ff18758b9",
+  "files": {
+    "LICENSE": "e8dcf3631c6bb8f17e4cab4b98d78884b63c9c1175edfe518f6407994d56e1db",
+    "Makefile": "c891221c8263c23a765cd1c99bce1bcec242aa4879ea50d1505eb6431832e495",
+    "bit_allocation.c": "81a627a2d7947c1b720a2ee8a4dee54bb38a9f77ad1d4a57fa510e2a15351f46",
+    "bit_allocation.h": "b5860cf3d22d2a14063c3f993d014f56f7b39092e9198b861b4d88417a4a46a9",
+    "bit_reader.c": "9dfef444ea0d790411ae3859743770ddcb8aa8c0d9c1abf3b5841d94e5b99393",
+    "bit_reader.h": "ded2b6e73988fe0b897d628e901a5f0d10d88d20431aa38a84e742e580e1207c",
+    "huffCodes.c": "6f7dcdd2cf594a7c0e09452320bcf900fc962667ef05e9ab38371e20b0a02919",
+    "huffCodes.h": "6a1f0436fa614cbd52e3626dc4dcd968f98c7db0ea69656a9467fb6b1e63f553",
+    "imdct.c": "621d4542493145c6e4e923e9734f9998cad08b84752f21d762db5de7f02c74f2",
+    "imdct.h": "c3b078b97aadff9be174eed0651f485f7df0c1e78f0363e29fe18ee6b9f7f2b7",
+    "ldacdec.c": "02ca857ec2d74ce5e49cd9651120c61a262934165db48d34ee3fdabaea637b71",
+    "ldacdec.h": "dece6516247f79be2ab07f5eefe08ab410afa2937a1eec71f21ea32d5d1f7a3e",
+    "ldacenc.c": "38464c93432d187de154040200554703e63e23b7918cf8d1de3319db7a047b5b",
+    "libldacdec.c": "c7046a64ae7f19b47d34d7bbc1de39023ca0bc36c0869586f976222e0fe58e9d",
+    "log.h": "d440b0c21483c4f9b96ad895fe0143d86271c342b055847cdb8bb6bac669a0f5",
+    "spectrum.c": "861816188e848a05b7967e075eeed2d92916a5aaf1b8fc5bbaded65061d69599",
+    "spectrum.h": "cb5b85b23dad74c2c70041bf6db54ca8c0c255491be72692261265ef8215cd20",
+    "utility.c": "f8e40e9267d34497957e186b6bcbeaeb24a5f92f084e4ed8bc574ae4478f365e",
+    "utility.h": "1b102f8450891de2312f4b55b470f862f38fe3a1ad614a5e7627c8767288c386"
+  }
+}
